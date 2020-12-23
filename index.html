@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <img class="header__logo" src="/assets/apple.svg" alt="ok" />
+          <h1>Wartości odżywcze</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="app"></div>
+        <div class="app__description">
+          <p>
+            Poniżej zaprezentowano uporządkowaną tebelę składników odżywczych
+          </p>
+          <p>
+            W celu uzyskanie szczegłowych informacji skontaktuj się poprzez:
+          </p>
+          <div class="app__contact-method">
+            <span class="fas fa-camera"></span> +48 129 139 214
+          </div>
+          <div class="app__contact-method">
+            <span class="fas fa-envelope"></span>
+            <a href="mailto:pawelkruszelnicki@interia.pl" class="href"
+              >pawelkruszelnicki@interia.pl</a
+            >
+          </div>
+          <h2>Wykaz wartośći odżywczych:</h2>
+          <div class="app__values"></div>
+          <div class="app__images">
+            <picture>
+              <source
+                srcset="assets/nutrition-1000.jpg"
+                media="(min-width:800px)"
+              />
+              <source
+                srcset="assets/nutrition-800.jpg"
+                media="(min-width:500px)"
+              />
+              <img src="assets/nutrition-500.jpg" alt="nutrition" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

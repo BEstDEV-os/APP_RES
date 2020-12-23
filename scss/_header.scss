@@ -1,0 +1,14 @@
+.header {
+  background-color: $color-primary;
+  color: white;
+  padding: $main-spacing 0;
+  margin-bottom: $main-spacing;
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    margin-right: $main-spacing/2;
+    width: $main-spacing * 2;
+  }
+}
